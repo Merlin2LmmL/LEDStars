@@ -7,3 +7,8 @@ fp-info-cache
 *.bak
 # Generated fabrication output (regenerate with the Fabrication Toolkit plugin)
 production/
+# Large Blender scene: attached to a GitHub Release instead of git
+render/*.blend
+render/*.blend1
+render/board.glb
+render/dl_tree/

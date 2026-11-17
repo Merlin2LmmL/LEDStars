@@ -355,6 +355,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2327,6 +2493,400 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SP3T"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SP3T"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.875 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch sp3t ON-ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW* SP3T*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SP3T_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SP3T_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_names
@@ -2702,6 +3262,50 @@
 		)
 		(uuid "0c0401a8-6e63-469b-9a2f-b3247e93d37f")
 	)
+	(text "SW2: ON / OFF / CLOCK, centre = OFF."
+		(exclude_from_sim no)
+		(at 48.26 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30332d1f-b078-4c9d-805c-b8b0ecb6a122")
+	)
+	(text "SW1: mode button. PC1 internal pull-up,"
+		(exclude_from_sim no)
+		(at 20.32 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45b4e8a6-cc58-4b10-8bcd-672051a0c2c8")
+	)
+	(text "Use OFF while programming. CLOCK = ON via D1"
+		(exclude_from_sim no)
+		(at 48.26 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a74ab601-3739-4987-ba36-694d560e527d")
+	)
+	(text "plus CLOCK_SEL high on PC2 (through R6)."
+		(exclude_from_sim no)
+		(at 48.26 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad77ee2a-18e5-4db9-8b5b-c30f3b965350")
+	)
 	(text "Programming pads: 3V3, SWIO (PD1), GND for WCH-LinkE."
 		(exclude_from_sim no)
 		(at 27.94 58.42 0)
@@ -2724,6 +3328,17 @@
 		)
 		(uuid "eb21c951-3028-40b6-94da-9f34eae374de")
 	)
+	(text "dont forget to debounce in firmware you idiot lol"
+		(exclude_from_sim no)
+		(at 20.32 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec4fd0dc-e231-4079-8f94-5fe5375275af")
+	)
 	(text "Unselected arm pins = high-Z. No diodes needed (LEDs are the diodes)."
 		(exclude_from_sim no)
 		(at 152.4 35.56 0)
@@ -2735,6 +3350,18 @@
 		)
 		(uuid "f0c329b4-e421-48b7-a4b4-e14417edca34")
 	)
+	(junction
+		(at 83.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70caf05f-4c07-4665-b9d9-d4a0eb636890")
+	)
+	(junction
+		(at 36.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b02fbddd-39ef-4a07-b4f2-c69fb3d812a1")
+	)
 	(no_connect
 		(at 111.76 93.98)
 		(uuid "0401bab4-1844-4c2b-83f6-9a5873f06469")
@@ -2744,16 +3371,12 @@
 		(uuid "0f1af4ad-f6b4-4789-b655-2b763820b016")
 	)
 	(no_connect
-		(at 91.44 81.28)
-		(uuid "36d4f7f9-bad6-42de-b6d0-93f61d8586e0")
-	)
-	(no_connect
 		(at 111.76 83.82)
 		(uuid "39403fe6-516a-4511-94ba-3e51e137f235")
 	)
 	(no_connect
-		(at 91.44 78.74)
-		(uuid "8b7032ac-5459-4412-9a81-3390ba995dc4")
+		(at 83.82 133.35)
+		(uuid "6b6165b8-16a6-456c-9337-c3f7d217c354")
 	)
 	(no_connect
 		(at 91.44 76.2)
@@ -2805,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 152.4) (xy 104.14 152.4)
+			(xy 147.32 153.67) (xy 138.43 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2815,13 +3438,33 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 127) (xy 96.52 127)
+			(xy 59.69 134.62) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21886558-ea8a-464b-9bae-6cf24a034f50")
+	)
+	(wire
+		(pts
+			(xy 121.92 128.27) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2568a04d-b4ae-457e-ab99-3120e323c7e8")
+	)
+	(wire
+		(pts
+			(xy 64.77 148.59) (xy 55.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f1f588-8100-4786-a996-977466d0f835")
 	)
 	(wire
 		(pts
@@ -2865,7 +3508,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 165.1) (xy 96.52 165.1)
+			(xy 121.92 166.37) (xy 130.81 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 121.92) (xy 58.42 121.92)
+			(xy 36.83 105.41) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2905,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 134.62) (xy 39.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f855e9-471f-44cb-a9ce-58f24b11c839")
+	)
+	(wire
+		(pts
 			(xy 121.92 101.6) (xy 111.76 101.6)
 		)
 		(stroke
@@ -2915,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 58.42 111.76)
+			(xy 36.83 95.25) (xy 44.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2985,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 177.8) (xy 96.52 177.8)
+			(xy 121.92 179.07) (xy 130.81 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3025,6 +3678,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 130.81) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810df6c7-69b3-4dee-a1b7-8a8c3c267b83")
+	)
+	(wire
+		(pts
 			(xy 166.37 130.81) (xy 166.37 124.46)
 		)
 		(stroke
@@ -3045,7 +3708,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 139.7) (xy 104.14 139.7)
+			(xy 147.32 140.97) (xy 138.43 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +3748,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 139.7) (xy 96.52 139.7)
+			(xy 121.92 140.97) (xy 130.81 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3095,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 152.4) (xy 96.52 152.4)
+			(xy 121.92 153.67) (xy 130.81 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 177.8) (xy 104.14 177.8)
+			(xy 147.32 179.07) (xy 138.43 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 127) (xy 104.14 127)
+			(xy 147.32 128.27) (xy 138.43 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3888,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 165.1) (xy 104.14 165.1)
+			(xy 147.32 166.37) (xy 138.43 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3263,6 +3926,26 @@
 		)
 		(uuid "fc8ebd9d-e21b-4e7f-86da-8563a3994f08")
 	)
+	(label "CLOCK_SEL"
+		(at 59.69 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0664ac73-5cd5-4bff-ab81-fd9a26d460ac")
+	)
+	(label "MODE_BTN"
+		(at 45.72 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0748f4ea-b623-4a44-9ce4-d37141eb1938")
+	)
 	(label "ARM3"
 		(at 201.93 107.95 90)
 		(effects
@@ -3272,6 +3955,16 @@
 			(justify left bottom)
 		)
 		(uuid "088dc6f5-5686-428c-a777-74836af75a2a")
+	)
+	(label "MODE_BTN"
+		(at 91.44 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0987081b-8c89-4955-a5f6-6ed06624a133")
 	)
 	(label "COL_Y"
 		(at 184.15 137.16 0)
@@ -3294,7 +3987,7 @@
 		(uuid "0dbc51f5-a436-40e0-b6a4-f3d5e5c75898")
 	)
 	(label "DRV_R"
-		(at 87.63 177.8 0)
+		(at 121.92 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3324,7 +4017,7 @@
 		(uuid "201e93a4-0eac-4be7-a606-3e0efc8bab25")
 	)
 	(label "DRV_B"
-		(at 87.63 139.7 0)
+		(at 121.92 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3414,7 +4107,7 @@
 		(uuid "34773e3a-6608-4403-9e0b-15b601706a2c")
 	)
 	(label "COL_Y"
-		(at 113.03 165.1 180)
+		(at 147.32 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3504,7 +4197,7 @@
 		(uuid "5369f61f-5ae8-4cef-a814-adf5157ce73e")
 	)
 	(label "COL_R"
-		(at 113.03 177.8 180)
+		(at 147.32 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3604,7 +4297,7 @@
 		(uuid "6490107b-d68f-4383-8c3f-2ca6818a2482")
 	)
 	(label "DRV_Y"
-		(at 87.63 165.1 0)
+		(at 121.92 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,6 +4315,16 @@
 			(justify left bottom)
 		)
 		(uuid "779d8096-8c20-4207-8ffb-5f528ffe50ee")
+	)
+	(label "BAT+"
+		(at 73.66 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79502415-d1b4-48a6-86b6-e90d915a1605")
 	)
 	(label "COL_R"
 		(at 166.37 68.58 0)
@@ -3664,7 +4367,7 @@
 		(uuid "852d77c9-2b6f-4fcb-9bfc-a1ae871f9447")
 	)
 	(label "COL_B"
-		(at 113.03 139.7 180)
+		(at 147.32 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3733,6 +4436,16 @@
 		)
 		(uuid "9fad305b-e0b8-43f7-9089-84cc68491acc")
 	)
+	(label "CLK_SW"
+		(at 30.48 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a26e3731-339b-4411-9948-6ee5a3ecb709")
+	)
 	(label "DRV_Y"
 		(at 121.92 88.9 180)
 		(effects
@@ -3743,8 +4456,18 @@
 		)
 		(uuid "a3a2c6f4-89fa-405b-8edb-5ea9457c6663")
 	)
+	(label "CLOCK_SEL"
+		(at 91.44 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3f67a29-fe3e-4230-9e8e-3bd2e07658c2")
+	)
 	(label "COL_W"
-		(at 113.03 152.4 180)
+		(at 147.32 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3813,6 +4536,16 @@
 		)
 		(uuid "b311fe69-05d8-4ba8-a624-6a60b16bedf8")
 	)
+	(label "CLK_SW"
+		(at 64.77 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd2e41ae-0294-4b31-b426-8fad13aeee40")
+	)
 	(label "COL_G"
 		(at 237.49 137.16 0)
 		(effects
@@ -3843,8 +4576,18 @@
 		)
 		(uuid "c014f1db-1fb5-4269-b704-7b874621b63a")
 	)
+	(label "BAT+"
+		(at 36.83 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c22ae633-62ee-44a4-9b4e-c5e430fd47bb")
+	)
 	(label "DRV_W"
-		(at 87.63 152.4 0)
+		(at 121.92 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3904,7 +4647,7 @@
 		(uuid "d3082e25-dce7-4eb8-b9d1-2c8b1370792e")
 	)
 	(label "COL_G"
-		(at 113.03 127 180)
+		(at 147.32 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3964,7 +4707,7 @@
 		(uuid "ed527399-96a7-40f3-a546-37356fc45c03")
 	)
 	(label "DRV_G"
-		(at 87.63 127 0)
+		(at 121.92 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3982,6 +4725,16 @@
 			(justify left bottom)
 		)
 		(uuid "fabe6a31-3bb5-4108-82f1-10d6739c5dbb")
+	)
+	(label "CLK_SW"
+		(at 83.82 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fea4a3f4-8ff4-4003-a369-5b7196b4aca3")
 	)
 	(symbol
 		(lib_id "LEDStars:whiteLEDSMD")
@@ -4130,7 +4883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0432cbb8-ecec-4cf0-a213-a42864ff919d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 137.16 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4189,7 +4942,7 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4950,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 152.4 90)
+		(at 134.62 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4207,7 +4960,7 @@
 		(dnp no)
 		(uuid "0cb64dd1-d3f2-4216-bb36-c90eb3f20602")
 		(property "Reference" "R1"
-			(at 101.6 149.86 90)
+			(at 135.89 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4218,7 +4971,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 101.6 147.32 90)
+			(at 135.89 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4229,7 +4982,7 @@
 			)
 		)
 		(property "Footprint" "LEDStars:R0603"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,7 +4993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4251,7 +5004,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 22Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,7 +5015,7 @@
 			)
 		)
 		(property "LCSC Part" "C23345"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4273,7 +5026,7 @@
 			)
 		)
 		(property "MPN" "0603WAF220JT5E"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +5037,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4295,7 +5048,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +5059,7 @@
 			)
 		)
 		(property "Resistance" "22ohm"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,7 +5070,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4328,7 +5081,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,7 +5092,7 @@
 			)
 		)
 		(property "Voltage" "75V"
-			(at 100.33 152.4 0)
+			(at 134.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,6 +5662,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 91.44 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "245eadf6-dea3-4be2-b15c-31f7bc1a48a1")
+		(property "Reference" "#PWR09"
+			(at 91.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bdaadb8-5646-4be7-a5c3-107723929980")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEDStars:XL-0805QBC")
 		(at 218.44 50.8 90)
 		(unit 1)
@@ -5181,40 +6010,39 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDStars:BS-10-B2AA010")
-		(at 50.8 116.84 270)
+		(lib_id "power:+3V3")
+		(at 48.26 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3d880093-ba23-43c2-aa75-4a1a7f40c144")
-		(property "Reference" "BT1"
-			(at 43.18 115.57 270)
+		(uuid "30591d28-20f4-42cf-860c-ba531af28be8")
+		(property "Reference" "#PWR06"
+			(at 48.26 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CR2032"
-			(at 39.116 117.856 270)
+		(property "Value" "+3V3"
+			(at 48.26 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LEDStars:BAT-SMD_BS-10-B2AA010"
-			(at 50.8 116.84 0)
+		(property "Footprint" ""
+			(at 48.26 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5225,7 +6053,215 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 116.84 0)
+			(at 48.26 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd082625-0d9c-4dac-800c-22d3322397a4")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SP3T")
+		(at 78.74 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36561854-efb1-4a36-ac59-044043d7935b")
+		(property "Reference" "SW2"
+			(at 71.12 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ON-OFF-CLOCK"
+			(at 71.12 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEDStars:SW-SMD_MSK13C02-SZ"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SP3T slide switch, 3 positions, SMD: ON / OFF / CLOCK"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2681567"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MSK13C02"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SMD,9.6x2.8mm"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d96eb64-f2b1-455b-82a3-c9f8a5311afe")
+		)
+		(pin "2"
+			(uuid "d9526179-59ca-4231-85d4-9017964d3ee4")
+		)
+		(pin "3"
+			(uuid "5e4291b7-3b71-4aad-97fe-5c7cc76475c4")
+		)
+		(pin "4"
+			(uuid "1f7b2ed3-32ae-447a-96c6-3eeaf52a5b07")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEDStars:BS-10-B2AA010")
+		(at 36.83 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d880093-ba23-43c2-aa75-4a1a7f40c144")
+		(property "Reference" "BT1"
+			(at 29.21 99.06 270)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CR2032"
+			(at 25.146 101.346 270)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LEDStars:BAT-SMD_BS-10-B2AA010"
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5236,7 +6272,7 @@
 			)
 		)
 		(property "Description" "-25~85℃ Battery base CR2032 Phosphor bronze - ROHS"
-			(at 50.8 116.84 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,7 +6283,7 @@
 			)
 		)
 		(property "LCSC Part" "C964798"
-			(at 50.8 116.84 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +6294,7 @@
 			)
 		)
 		(property "MPN" "BS-10-B2AA010"
-			(at 50.8 116.84 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,7 +6305,7 @@
 			)
 		)
 		(property "Manufacturer" "MYOUNG"
-			(at 50.8 116.84 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5280,7 +6316,7 @@
 			)
 		)
 		(property "Package" "SMD CR2032 holder"
-			(at 50.8 116.84 0)
+			(at 36.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +6343,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 139.7 90)
+		(at 134.62 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5317,7 +6353,7 @@
 		(dnp no)
 		(uuid "41351bdb-e679-43fa-9af9-4dba749c8b25")
 		(property "Reference" "R4"
-			(at 101.6 137.16 90)
+			(at 135.89 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5328,7 +6364,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 101.6 134.62 90)
+			(at 135.89 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5339,7 +6375,7 @@
 			)
 		)
 		(property "Footprint" "LEDStars:R0603"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5350,7 +6386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +6397,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 22Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,7 +6408,7 @@
 			)
 		)
 		(property "LCSC Part" "C23345"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5383,7 +6419,7 @@
 			)
 		)
 		(property "MPN" "0603WAF220JT5E"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,7 +6430,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5405,7 +6441,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5416,7 +6452,7 @@
 			)
 		)
 		(property "Resistance" "22ohm"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +6463,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +6474,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,7 +6485,7 @@
 			)
 		)
 		(property "Voltage" "75V"
-			(at 100.33 139.7 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,6 +6783,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "675295a4-3265-45d3-895a-066fb5137df2")
+		(property "Reference" "#PWR07"
+			(at 55.88 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c922b8b1-170d-4005-a859-ad223c3f0779")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_WCH_CH32V0:CH32V003FxPx")
 		(at 101.6 88.9 0)
 		(unit 1)
@@ -5936,7 +7048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7152f089-94d8-4192-9d11-ea3af71a6fe7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 101.6 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5995,7 +7107,132 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR01")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76afee4a-a0f4-449a-87f7-b54607429ffb")
+		(property "Reference" "R6"
+			(at 44.45 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 44.45 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEDStars:R0603"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 0603 1%"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C21190"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 43.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d53c2ca0-1531-45e2-b3d7-27612aa50637")
+		)
+		(pin "2"
+			(uuid "8cbaa269-a122-467a-9dad-11157a2871bf")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6012,7 +7249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c8839f5-db49-4082-844f-d7ae5932b899")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6071,7 +7308,7 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6875,7 +8112,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 127 90)
+		(at 134.62 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6885,7 +8122,7 @@
 		(dnp no)
 		(uuid "9d7e471b-065f-47ed-bd70-1d6333b443c7")
 		(property "Reference" "R3"
-			(at 102.235 123.825 90)
+			(at 136.525 125.095 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6896,7 +8133,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 102.235 121.285 90)
+			(at 136.525 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6907,7 +8144,7 @@
 			)
 		)
 		(property "Footprint" "LEDStars:R0603"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6918,7 +8155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6929,7 +8166,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +8177,7 @@
 			)
 		)
 		(property "LCSC Part" "C22775"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6951,7 +8188,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1000T5E"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,7 +8199,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,7 +8210,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6984,7 +8221,7 @@
 			)
 		)
 		(property "Resistance" "100ohm"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6995,7 +8232,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7006,7 +8243,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,7 +8254,7 @@
 			)
 		)
 		(property "Voltage" "75V"
-			(at 100.33 127 0)
+			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,6 +8280,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 52.07 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ebfec17-f961-45d5-987c-754a2f655729")
+		(property "Reference" "D26"
+			(at 52.07 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B5819W"
+			(at 52.07 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode 40V 1A, powers the MCU in CLOCK position"
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8598"
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B5819W SL"
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Slkor"
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOD-123"
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a195a8f0-0d49-44e0-b4bf-5943ef951d69")
+		)
+		(pin "2"
+			(uuid "5faf499b-ce4e-4378-a106-e2093eb67e0c")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 106.68 0)
 		(unit 1)
@@ -7053,7 +8413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a67e8c5a-3775-4952-a0d3-3cdce7be2aec")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7112,7 +8472,7 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR02")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7256,7 +8616,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 58.42 121.92 0)
+		(at 44.45 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7265,8 +8625,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5ac9edd-b104-45e8-93d9-45cdc3e2aa4f")
-		(property "Reference" "#PWR08"
-			(at 58.42 121.92 0)
+		(property "Reference" "#PWR05"
+			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7277,7 +8637,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 58.42 118.11 0)
+			(at 44.45 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7287,7 +8647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 121.92 0)
+			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,7 +8658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 121.92 0)
+			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7309,7 +8669,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 121.92 0)
+			(at 44.45 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7324,7 +8684,7 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7477,7 +8837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf996eda-d8f4-4b31-9c71-59dd82184dfd")
-		(property "Reference" "#PWR10"
+		(property "Reference" "#PWR02"
 			(at 30.48 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7536,7 +8896,7 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR10")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7544,7 +8904,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 177.8 90)
+		(at 134.62 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7554,7 +8914,7 @@
 		(dnp no)
 		(uuid "c41c2f9b-ab1e-43a4-ac16-54ab940ce3fd")
 		(property "Reference" "R2"
-			(at 102.235 174.625 90)
+			(at 136.525 175.895 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7565,7 +8925,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 102.235 172.085 90)
+			(at 136.525 173.355 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7576,7 +8936,7 @@
 			)
 		)
 		(property "Footprint" "LEDStars:R0603"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7587,7 +8947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7598,7 +8958,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 330Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7609,7 +8969,7 @@
 			)
 		)
 		(property "LCSC Part" "C23138"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7620,7 +8980,7 @@
 			)
 		)
 		(property "MPN" "0603WAF3300T5E"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +8991,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7642,7 +9002,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7653,7 +9013,7 @@
 			)
 		)
 		(property "Resistance" "330ohm"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7664,7 +9024,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7675,7 +9035,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7686,7 +9046,7 @@
 			)
 		)
 		(property "Voltage" "75V"
-			(at 100.33 177.8 0)
+			(at 134.62 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,82 +9344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 50.8 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc8d3c1a-a686-48dd-ae31-79c7505b4df6")
-		(property "Reference" "#PWR05"
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 50.8 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5dd4df92-77a1-4494-b9c2-0bb64da0042a")
-		)
-		(instances
-			(project "LEDStars"
-				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEDStars:XL-0805QBC")
 		(at 218.44 142.24 90)
 		(unit 1)
@@ -8326,6 +9610,83 @@
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 83.82 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db9a9911-8011-4163-870e-e22f54c97d71")
+		(property "Reference" "#PWR08"
+			(at 83.82 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.82 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7e4ccc2-57ec-4133-9674-f93858c9b860")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8605,7 +9966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 165.1 90)
+		(at 134.62 166.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8615,7 +9976,7 @@
 		(dnp no)
 		(uuid "e64a6684-aab5-443c-b39a-ed9d60e39379")
 		(property "Reference" "R5"
-			(at 102.235 161.925 90)
+			(at 136.525 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8626,7 +9987,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 102.235 159.385 90)
+			(at 136.525 160.655 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8637,7 +9998,7 @@
 			)
 		)
 		(property "Footprint" "LEDStars:R0603"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +10009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8659,7 +10020,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 330Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +10031,7 @@
 			)
 		)
 		(property "LCSC Part" "C23138"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8681,7 +10042,7 @@
 			)
 		)
 		(property "MPN" "0603WAF3300T5E"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +10053,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,7 +10064,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8714,7 +10075,7 @@
 			)
 		)
 		(property "Resistance" "330ohm"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8725,7 +10086,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8736,7 +10097,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8747,7 +10108,7 @@
 			)
 		)
 		(property "Voltage" "75V"
-			(at 100.33 165.1 0)
+			(at 134.62 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +10135,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 58.42 111.76 0)
+		(at 44.45 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8783,8 +10144,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7677788-e462-4862-baef-0b835b80b00a")
-		(property "Reference" "#PWR07"
-			(at 58.42 111.76 0)
+		(property "Reference" "#PWR04"
+			(at 44.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8795,7 +10156,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 58.42 107.95 0)
+			(at 44.45 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8805,7 +10166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 111.76 0)
+			(at 44.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8816,7 +10177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 111.76 0)
+			(at 44.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8827,7 +10188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 111.76 0)
+			(at 44.45 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8842,7 +10203,7 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8995,7 +10356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea6d4f48-ea7d-41f9-b9ad-d4c59cb762a4")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR012"
 			(at 137.16 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9054,7 +10415,7 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR03")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9198,7 +10559,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 121.92 0)
+		(at 36.83 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9207,8 +10568,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4df7bb3-a8cd-439d-a6f9-6ecc03e8318d")
-		(property "Reference" "#PWR06"
-			(at 50.8 121.92 0)
+		(property "Reference" "#PWR03"
+			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9219,7 +10580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 125.73 0)
+			(at 36.83 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9229,7 +10590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 121.92 0)
+			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9240,7 +10601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 121.92 0)
+			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9251,7 +10612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 121.92 0)
+			(at 36.83 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9266,7 +10627,130 @@
 		(instances
 			(project "LEDStars"
 				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
-					(reference "#PWR06")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 50.8 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6032cb8-ec45-464d-94e3-974747f96bc9")
+		(property "Reference" "SW1"
+			(at 50.8 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MODE"
+			(at 50.8 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDStars:KEY-SMD_L4.0-W3.0-LS4.9-1"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tactile switch 3x4x2 mm, SMD, 1.6 N"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49234124"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3x4x2-2P-1.6N"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HX"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SMD,4x3mm"
+			(at 50.8 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2538d1e7-b847-4859-83a1-f29e1f1448e9")
+		)
+		(pin "2"
+			(uuid "44532726-6642-4a26-8ab2-bc6a615f9c8f")
+		)
+		(instances
+			(project "LEDStars"
+				(path "/8bb90c91-925f-4d97-ba5f-2d019908f54f"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

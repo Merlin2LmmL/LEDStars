@@ -70,7 +70,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|146338503|75671999|d11a6b81-e57a-4e69-bede-12fd11a8338b|00000000-0000-0000-0000-000000000000",
+          "Thats just the footprint. Nothing to do about that"
+        ],
+        [
+          "annular_width|150668630|73171999|c4dfcce5-37c7-4525-81b4-90d4871357ea|00000000-0000-0000-0000-000000000000",
+          "Thats just the footprint. Nothing to do about that"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,20 +149,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
+        "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
@@ -203,13 +212,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25,
-        0.4,
-        0.2,
-        0.15
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -236,16 +239,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -521,64 +515,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "ARM",
-        "pcb_color": "rgb(255, 140, 0)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgb(200, 60, 200)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Rail",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -588,36 +525,9 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {
-      "/COL_B": "rgb(60, 120, 255)",
-      "/COL_G": "rgb(40, 190, 70)",
-      "/COL_R": "rgb(235, 50, 50)",
-      "/COL_W": "rgb(235, 235, 235)",
-      "/COL_Y": "rgb(240, 205, 0)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "ARM",
-        "pattern": "/ARM*"
-      },
-      {
-        "netclass": "Rail",
-        "pattern": "/COL_*"
-      },
-      {
-        "netclass": "Rail",
-        "pattern": "/DRV_*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -743,7 +653,7 @@
     "top_level_sheets": [
       {
         "filename": "LEDStars.kicad_sch",
-        "name": "Root",
+        "name": "LEDStars",
         "uuid": "8bb90c91-925f-4d97-ba5f-2d019908f54f"
       }
     ],
@@ -753,7 +663,7 @@
   "sheets": [
     [
       "8bb90c91-925f-4d97-ba5f-2d019908f54f",
-      "Root"
+      "LEDStars"
     ]
   ],
   "text_variables": {},
