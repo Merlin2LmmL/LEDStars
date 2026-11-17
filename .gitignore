@@ -1,0 +1,9 @@
+# KiCad lock / cache / local state
+*.lck
+~*.lck
+*.kicad_prl
+fp-info-cache
+*-backups/
+*.bak
+# Generated fabrication output (regenerate with the Fabrication Toolkit plugin)
+production/

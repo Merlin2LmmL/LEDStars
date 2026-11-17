@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LEDStars")(type "KiCad")(uri "${KIPRJMOD}/lib/LEDStars.pretty")(options "")(descr "Project parts (easyeda2kicad + custom)"))
+)
