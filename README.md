@@ -92,9 +92,17 @@ journal entries in [`JOURNAL.md`](JOURNAL.md).
 
 | # | Entry | What it covers |
 |---|---|---|
-| 1 | [November 17, 2026: Getting the Idea](JOURNAL.md#november-17-2026-getting-the-idea) | Why I wanted a snowflake ornament as a gift, and what existing kits looked like |
+| 1 | [November 17, 2026: Getting the Idea](JOURNAL.md#november-17-2026-getting-the-idea) | Why a snowflake ornament as a gift, and what existing kits looked like |
+| 2 | [November 17, 2026 (entry 2): Deciding what the star has to be](JOURNAL.md#november-17-2026-entry-2-deciding-what-the-star-has-to-be) | The requirements: coin cell, no recharging, no through-hole parts, and the first chip (ATtiny404) |
+| 3 | [November 17, 2026 (entry 3): Reconsidering my life choises](JOURNAL.md#november-17-2026-entry-3-reconsidering-my-life-choises) | Checking the parts catalogue and switching to the CH32V003 |
+| 4 | [November 17, 2026 (entry 4): Deciding on the PCB Outline and LED ordering](JOURNAL.md#november-17-2026-entry-4-deciding-on-the-pcb-outline-and-led-ordering) | The board outline, LED colour order and net classes |
+| 5 | [November 17, 2026 (entry 5): Routing the first version](JOURNAL.md#november-17-2026-entry-5-routing-the-first-version) | Placing the parts and routing the first version |
+| 6 | [November 17, 2026 (entry 6): Letting the LEDs shine through the board](JOURNAL.md#november-17-2026-entry-6-letting-the-leds-shine-through-the-board) | Reverse-mount LEDs that shine through the board |
+| 7 | [November 17, 2026 (entry 7): Reconsidering my life choises ... part 2](JOURNAL.md#november-17-2026-entry-7-reconsidering-my-life-choises--part-2) | Turning the star into a snowflake |
+| 8 | [November 17, 2026 (entry 8): Back silkscreen, the repo and JLCPCB being a pain in the ass](JOURNAL.md#november-17-2026-entry-8-back-silkscreen-the-repo-and-jlcpcb-being-a-pain-in-the-ass) | Back silkscreen, the repo, and JLCPCB's Economic assembly saying no |
+| 9 | [November 17, 2026 (entry 9): Doing some heavy blender rendering](JOURNAL.md#november-17-2026-entry-9-doing-some-heavy-blender-rendering) | The physics-based Blender renders |
 
-New entries are added to the bottom of `JOURNAL.md` and to this table as I go.
+New entries are added to the bottom of `JOURNAL.md` as the project goes on.
 
 ## Repository layout
 
