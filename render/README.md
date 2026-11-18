@@ -33,7 +33,7 @@ The ornament is not posed by hand.
 Export the board next to `scene.py`:
 
 ```
-kicad-cli pcb export glb -f --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --subst-models -o board.glb ../LEDStars.kicad_pcb
+kicad-cli pcb export glb -f --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --subst-models -o board.glb ../hardware/LEDStars.kicad_pcb
 ```
 
 Download the 2k blend and textures of the Poly Haven *Fir Sapling* into `dl_tree/fir_sapling/`
