@@ -6,31 +6,31 @@ boards are assembled by hand. The parts list is also available as a spreadsheet:
 
 ## Parts (per board and for 10 boards)
 
-| Refs | What | MPN | LCSC | Per board | ×10 | Unit $ | ×10 $ | Link |
-|---|---|---|---|---|---|---|---|---|
-| – | PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order `LEDStars_Y20`) | – | – | 1 | 10 | 1.50 | 15.00 | [JLCPCB](https://jlcpcb.com/) |
-| – | Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g), AliExpress | – | – | – | 1 set | – | €11.19 + €5.95 duties | [AliExpress](https://de.aliexpress.com/item/1005009348891918.html) |
-| U1 | Microcontroller, RISC-V, TSSOP-20 | CH32V003F4P6 | C5187096 | 1 | 10 | 0.3085 | 3.08 | [LCSC](https://www.lcsc.com/product-detail/C5187096.html) |
-| BT1 | CR2032 battery holder, SMD | BS-10-B2AA010 | C964798 | 1 | 10 | 0.4598 | 4.60 | [LCSC](https://www.lcsc.com/product-detail/C964798.html) |
-| D1, D5, D9, D13, D17 | White LED, reverse-mount 1206 | XL-3216UWC-FB | C3646935 | 5 | 50 | 0.0165 | 0.83 | [LCSC](https://www.lcsc.com/product-detail/C3646935.html) |
-| D21, D22, D23, D24, D25 | Yellow LED, reverse-mount 1206 | XL-3216UYC-FB | C3646939 | 5 | 50 | 0.0159 | 0.80 | [LCSC](https://www.lcsc.com/product-detail/C3646939.html) |
-| D2, D6, D10, D14, D18 | Red LED, reverse-mount 1206 | XL-3216SURC-FB | C3646938 | 5 | 50 | 0.0105 | 0.53 | [LCSC](https://www.lcsc.com/product-detail/C3646938.html) |
-| D3, D7, D11, D15, D19 | Green LED, reverse-mount 1206 | XL-3216UGC-FB | C3646937 | 5 | 50 | 0.0101 | 0.51 | [LCSC](https://www.lcsc.com/product-detail/C3646937.html) |
-| D4, D8, D12, D16, D20 | Blue LED, reverse-mount 1206 | XL-3216UBC-FB | C3646941 | 5 | 50 | 0.0146 | 0.73 | [LCSC](https://www.lcsc.com/product-detail/C3646941.html) |
-| SW2 | 3-position slide switch (ON / OFF / CLOCK) | MSK13C02 | C2681567 | 1 | 10 | 0.1169 | 1.17 | [LCSC](https://www.lcsc.com/product-detail/C2681567.html) |
-| SW1 | Tactile button (mode), 3x4 mm | HX 3x4x2-2P-1.6N TACTILE SWITCH | C49234124 | 1 | 10 | 0.0254 | 0.25 | [LCSC](https://www.lcsc.com/product-detail/C49234124.html) |
-| D26 | Schottky diode 40 V 1 A (CLOCK position power) | B5819W SL | C8598 | 1 | 10 | 0.0262 | 0.26 | [LCSC](https://www.lcsc.com/product-detail/C8598.html) |
-| C1 | 100 nF 50 V X7R 0603 capacitor (Samsung, replaces the out-of-stock Yageo C14663) | CL10B104KB8NNNC | C1591 | 1 | 10 | 0.0071 | 0.07 | [LCSC](https://www.lcsc.com/product-detail/C1591.html) |
-| R1, R4 | 22 Ω 0603 resistor | 0603WAF220JT5E | C23345 | 2 | 20 | 0.0017 | 0.03 | [LCSC](https://www.lcsc.com/product-detail/C23345.html) |
-| R3 | 100 Ω 0603 resistor | 0603WAF1000T5E | C22775 | 1 | 10 | 0.0023 | 0.02 | [LCSC](https://www.lcsc.com/product-detail/C22775.html) |
-| R2, R5 | 330 Ω 0603 resistor | 0603WAF3300T5E | C23138 | 2 | 20 | 0.0020 | 0.04 | [LCSC](https://www.lcsc.com/product-detail/C23138.html) |
-| R6 | 1 kΩ 0603 resistor | 0603WAF1001T5E | C21190 | 1 | 10 | 0.0017 | 0.02 | [LCSC](https://www.lcsc.com/product-detail/C21190.html) |
-| – | LCSC shipping (Global Direct Standard Line, 10–18 days) | – | – | – | 1 | – | 10.97 | [cart](LCSC_cart.png) |
-| – | LCSC handling fee | – | – | – | 1 | – | 3.00 | [cart](LCSC_cart.png) |
-| – | LCSC discount | – | – | – | 1 | – | −0.41 | [cart](LCSC_cart.png) |
-| – | JLCPCB shipping (estimate for this order alone) | – | – | – | 1 | – | 14.61 | [cart](JLCPCB_cart.png) |
-| – | AliExpress shipping | – | – | – | 1 | – | free | [cart](Aliexpress_cart.png) |
-| – | AliExpress import duties | – | – | – | 1 | – | €5.95 | [cart](Aliexpress_cart.png) |
+| Refs | What | Vendor | MPN | LCSC | Per board | ×10 | Unit $ | ×10 $ | Link |
+|---|---|---|---|---|---|---|---|---|---|
+| – | PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order `LEDStars_Y20`) | JLCPCB | – | – | 1 | 10 | 1.50 | 15.00 | [JLCPCB](https://jlcpcb.com/) |
+| – | Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g) bundle | AliExpress | – | – | 1 | 1 | €11.19 | €11.19 | [AliExpress](https://de.aliexpress.com/item/1005009348891918.html) |
+| U1 | Microcontroller, RISC-V, TSSOP-20 | LCSC | CH32V003F4P6 | C5187096 | 1 | 10 | 0.3085 | 3.08 | [LCSC](https://www.lcsc.com/product-detail/C5187096.html) |
+| BT1 | CR2032 battery holder, SMD | LCSC | BS-10-B2AA010 | C964798 | 1 | 10 | 0.4598 | 4.60 | [LCSC](https://www.lcsc.com/product-detail/C964798.html) |
+| D1, D5, D9, D13, D17 | White LED, reverse-mount 1206 | LCSC | XL-3216UWC-FB | C3646935 | 5 | 50 | 0.0165 | 0.83 | [LCSC](https://www.lcsc.com/product-detail/C3646935.html) |
+| D21, D22, D23, D24, D25 | Yellow LED, reverse-mount 1206 | LCSC | XL-3216UYC-FB | C3646939 | 5 | 50 | 0.0159 | 0.80 | [LCSC](https://www.lcsc.com/product-detail/C3646939.html) |
+| D2, D6, D10, D14, D18 | Red LED, reverse-mount 1206 | LCSC | XL-3216SURC-FB | C3646938 | 5 | 50 | 0.0105 | 0.53 | [LCSC](https://www.lcsc.com/product-detail/C3646938.html) |
+| D3, D7, D11, D15, D19 | Green LED, reverse-mount 1206 | LCSC | XL-3216UGC-FB | C3646937 | 5 | 50 | 0.0101 | 0.51 | [LCSC](https://www.lcsc.com/product-detail/C3646937.html) |
+| D4, D8, D12, D16, D20 | Blue LED, reverse-mount 1206 | LCSC | XL-3216UBC-FB | C3646941 | 5 | 50 | 0.0146 | 0.73 | [LCSC](https://www.lcsc.com/product-detail/C3646941.html) |
+| SW2 | 3-position slide switch (ON / OFF / CLOCK) | LCSC | MSK13C02 | C2681567 | 1 | 10 | 0.1169 | 1.17 | [LCSC](https://www.lcsc.com/product-detail/C2681567.html) |
+| SW1 | Tactile button (mode), 3x4 mm | LCSC | HX 3x4x2-2P-1.6N TACTILE SWITCH | C49234124 | 1 | 10 | 0.0254 | 0.25 | [LCSC](https://www.lcsc.com/product-detail/C49234124.html) |
+| D26 | Schottky diode 40 V 1 A (CLOCK position power) | LCSC | B5819W SL | C8598 | 1 | 10 | 0.0262 | 0.26 | [LCSC](https://www.lcsc.com/product-detail/C8598.html) |
+| C1 | 100 nF 50 V X7R 0603 capacitor (Samsung, replaces the out-of-stock Yageo C14663) | LCSC | CL10B104KB8NNNC | C1591 | 1 | 10 | 0.0071 | 0.07 | [LCSC](https://www.lcsc.com/product-detail/C1591.html) |
+| R1, R4 | 22 Ω 0603 resistor | LCSC | 0603WAF220JT5E | C23345 | 2 | 20 | 0.0017 | 0.03 | [LCSC](https://www.lcsc.com/product-detail/C23345.html) |
+| R3 | 100 Ω 0603 resistor | LCSC | 0603WAF1000T5E | C22775 | 1 | 10 | 0.0023 | 0.02 | [LCSC](https://www.lcsc.com/product-detail/C22775.html) |
+| R2, R5 | 330 Ω 0603 resistor | LCSC | 0603WAF3300T5E | C23138 | 2 | 20 | 0.0020 | 0.04 | [LCSC](https://www.lcsc.com/product-detail/C23138.html) |
+| R6 | 1 kΩ 0603 resistor | LCSC | 0603WAF1001T5E | C21190 | 1 | 10 | 0.0017 | 0.02 | [LCSC](https://www.lcsc.com/product-detail/C21190.html) |
+| – | LCSC shipping (Global Direct Standard Line, 10–18 days) | LCSC | – | – | – | 1 | – | 10.97 | [cart](LCSC_cart.png) |
+| – | LCSC handling fee | LCSC | – | – | – | 1 | – | 3.00 | [cart](LCSC_cart.png) |
+| – | LCSC discount | LCSC | – | – | – | 1 | – | −0.41 | [cart](LCSC_cart.png) |
+| – | JLCPCB shipping (estimate for this order alone) | JLCPCB | – | – | – | 1 | – | 14.61 | [cart](JLCPCB_cart.png) |
+| – | AliExpress shipping | AliExpress | – | – | – | 1 | – | free | [cart](Aliexpress_cart.png) |
+| – | AliExpress import duties | AliExpress | – | – | – | 1 | – | €5.95 | [cart](Aliexpress_cart.png) |
 
 Unit prices in the table are single-piece catalogue prices and only a rough guide. The carts below have the real prices.
 Adding up the component lines in the ×10 column gives about $12.95.
