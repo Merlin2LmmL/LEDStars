@@ -3,7 +3,7 @@ title: "LEDStar"
 github: "https://github.com/Merlin2LmmL/LEDStars"
 description: "A Snowflake shaped Board with 5 arms and one set of red, yellow, white, blue and green LEDs per arm to hang on your Christmas tree!"
 created_at: "2026-11-17"
-total_time: "17h 30m"
+total_time: "18h 30m"
 ---
 
 # November 17, 2026: Getting the Idea
@@ -155,3 +155,13 @@ For the README gallery I render three LED colour sets (white + yellow, white + b
 ![](https://fabricate.hackclub-assets.com/7f20acae314c9249a36466117c58281e70dc222c22796e91e0213fec73bf882e/image-jpeg/08_render.jpg)
 
 **Total time spent: 3h 30m**
+
+# November 18, 2026: Added 3 pos switch and mode switch
+<!-- fabricate:entry 3361 -->
+
+I am so dumb lol. How did i forget to add buttons for changing modes lol. I literally mentioned it in the first or second journal. How else are you supposed to switch between on, off and clock mode. Now you do that with a 3 positional switch. And I mentioned wanting to program different light patterns. For that i added a separate switch. It was a quick fix for the schematic: Just one Button + a pull down resistor and one 3 positional switch + diode + another resistor. When i annotated i clicked on "replace all annotations" which messed up all labels of the existing pcb so that was an experience relabeling all of them. I decided to put the 3 positional switch on the edge of the board on top and the mode switch where ever there was space.
+
+![](https://fabricate.hackclub-assets.com/ec9ac4acf868168f18ceffcef62e969139aa95679e021b33f0a018e6da77074c/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/eb54e2659c60139ac29d08b9389d324eef50ef89d129cf53d7d9ee5356be659f/image-png/image.png)
+
+**Total time spent: 1h**
