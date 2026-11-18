@@ -1,25 +1,24 @@
-References,Description,MPN,LCSC,JLC class,Qty per board,Qty for 10 boards,Unit price USD (est.),Line total USD (est.)
--,"PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order LEDStars_Y20)",,,,1,10,1.50,15.00
--,"Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g), AliExpress",,,,,1 set,,EUR 11.19 + EUR 5.95 duties
-U1,"Microcontroller, RISC-V, TSSOP-20",CH32V003F4P6,C5187096,Extended,1,10,0.3085,3.08
-BT1,"CR2032 battery holder, SMD",BS-10-B2AA010,C964798,Extended,1,10,0.4598,4.60
-"D1, D5, D9, D13, D17","White LED, reverse-mount 1206",XL-3216UWC-FB,C3646935,Extended,5,50,0.0165,0.83
-"D21, D22, D23, D24, D25","Yellow LED, reverse-mount 1206",XL-3216UYC-FB,C3646939,Extended,5,50,0.0159,0.80
-"D2, D6, D10, D14, D18","Red LED, reverse-mount 1206",XL-3216SURC-FB,C3646938,Extended,5,50,0.0105,0.53
-"D3, D7, D11, D15, D19","Green LED, reverse-mount 1206",XL-3216UGC-FB,C3646937,Extended,5,50,0.0101,0.51
-"D4, D8, D12, D16, D20","Blue LED, reverse-mount 1206",XL-3216UBC-FB,C3646941,Extended,5,50,0.0146,0.73
-SW2,3-position slide switch (ON / OFF / CLOCK),MSK13C02,C2681567,Extended,1,10,0.1169,1.17
-SW1,"Tactile button (mode), 3x4 mm",HX 3x4x2-2P-1.6N TACTILE SWITCH,C49234124,Extended,1,10,0.0254,0.25
-D26,Schottky diode 40 V 1 A (CLOCK position power),B5819W SL,C8598,Basic,1,10,0.0262,0.26
-C1,100 nF 50 V X7R 0603 capacitor,CL10B104KB8NNNC,C1591,Extended,1,10,0.0071,0.07
-"R1, R4",22 Ω 0603 resistor,0603WAF220JT5E,C23345,Basic,2,20,0.0017,0.03
-R3,100 Ω 0603 resistor,0603WAF1000T5E,C22775,Basic,1,10,0.0023,0.02
-"R2, R5",330 Ω 0603 resistor,0603WAF3300T5E,C23138,Basic,2,20,0.0020,0.04
-R6,1 kΩ 0603 resistor,0603WAF1001T5E,C21190,Basic,1,10,0.0017,0.02
-J1,"SWIO programming pads (no part, just board pads)",,,,1,10,,
--,"LCSC shipping (Global Direct Standard Line, 10-18 days)",,,,1,1,,10.97
--,LCSC handling fee,,,,1,1,,3.00
--,LCSC discount,,,,1,1,,-0.41
--,JLCPCB shipping (estimate for this order alone),,,,1,1,,14.61
--,AliExpress shipping,,,,1,1,,free
--,AliExpress import duties,,,,1,1,,EUR 5.95
+References,Description,MPN,LCSC,JLC class,Qty per board,Qty for 10 boards,Unit price USD (est.),Line total USD (est.),Link
+-,"PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order LEDStars_Y20)",,,,1,10,1.50,15.00,https://jlcpcb.com/
+-,"Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g), AliExpress",,,,,1 set,,EUR 11.19 + EUR 5.95 duties,https://de.aliexpress.com/item/1005009348891918.html
+U1,"Microcontroller, RISC-V, TSSOP-20",CH32V003F4P6,C5187096,Extended,1,10,0.3085,3.08,https://www.lcsc.com/product-detail/C5187096.html
+BT1,"CR2032 battery holder, SMD",BS-10-B2AA010,C964798,Extended,1,10,0.4598,4.60,https://www.lcsc.com/product-detail/C964798.html
+"D1, D5, D9, D13, D17","White LED, reverse-mount 1206",XL-3216UWC-FB,C3646935,Extended,5,50,0.0165,0.83,https://www.lcsc.com/product-detail/C3646935.html
+"D21, D22, D23, D24, D25","Yellow LED, reverse-mount 1206",XL-3216UYC-FB,C3646939,Extended,5,50,0.0159,0.80,https://www.lcsc.com/product-detail/C3646939.html
+"D2, D6, D10, D14, D18","Red LED, reverse-mount 1206",XL-3216SURC-FB,C3646938,Extended,5,50,0.0105,0.53,https://www.lcsc.com/product-detail/C3646938.html
+"D3, D7, D11, D15, D19","Green LED, reverse-mount 1206",XL-3216UGC-FB,C3646937,Extended,5,50,0.0101,0.51,https://www.lcsc.com/product-detail/C3646937.html
+"D4, D8, D12, D16, D20","Blue LED, reverse-mount 1206",XL-3216UBC-FB,C3646941,Extended,5,50,0.0146,0.73,https://www.lcsc.com/product-detail/C3646941.html
+SW2,3-position slide switch (ON / OFF / CLOCK),MSK13C02,C2681567,Extended,1,10,0.1169,1.17,https://www.lcsc.com/product-detail/C2681567.html
+SW1,"Tactile button (mode), 3x4 mm",HX 3x4x2-2P-1.6N TACTILE SWITCH,C49234124,Extended,1,10,0.0254,0.25,https://www.lcsc.com/product-detail/C49234124.html
+D26,Schottky diode 40 V 1 A (CLOCK position power),B5819W SL,C8598,Basic,1,10,0.0262,0.26,https://www.lcsc.com/product-detail/C8598.html
+C1,100 nF 50 V X7R 0603 capacitor,CL10B104KB8NNNC,C1591,Extended,1,10,0.0071,0.07,https://www.lcsc.com/product-detail/C1591.html
+"R1, R4",22 Ω 0603 resistor,0603WAF220JT5E,C23345,Basic,2,20,0.0017,0.03,https://www.lcsc.com/product-detail/C23345.html
+R3,100 Ω 0603 resistor,0603WAF1000T5E,C22775,Basic,1,10,0.0023,0.02,https://www.lcsc.com/product-detail/C22775.html
+"R2, R5",330 Ω 0603 resistor,0603WAF3300T5E,C23138,Basic,2,20,0.0020,0.04,https://www.lcsc.com/product-detail/C23138.html
+R6,1 kΩ 0603 resistor,0603WAF1001T5E,C21190,Basic,1,10,0.0017,0.02,https://www.lcsc.com/product-detail/C21190.html
+-,"LCSC shipping (Global Direct Standard Line, 10-18 days)",,,,1,1,,10.97,LCSC_cart.png
+-,LCSC handling fee,,,,1,1,,3.00,LCSC_cart.png
+-,LCSC discount,,,,1,1,,-0.41,LCSC_cart.png
+-,JLCPCB shipping (estimate for this order alone),,,,1,1,,14.61,JLCPCB_cart.png
+-,AliExpress shipping,,,,1,1,,free,Aliexpress_cart.png
+-,AliExpress import duties,,,,1,1,,EUR 5.95,Aliexpress_cart.png
