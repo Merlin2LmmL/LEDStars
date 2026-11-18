@@ -1,24 +1,25 @@
-References,Description,Vendor,MPN,LCSC,JLC class,Qty per board,Qty for 10 boards,Unit price USD (est.),Line total USD (est.),Link
--,"PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order LEDStars_Y20)",JLCPCB,,,,1,10,1.50,15.00,https://jlcpcb.com/
--,Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g) bundle,AliExpress,,,,1,1,EUR 11.19,EUR 11.19,https://de.aliexpress.com/item/1005009348891918.html
-U1,"Microcontroller, RISC-V, TSSOP-20",LCSC,CH32V003F4P6,C5187096,Extended,1,10,0.3085,3.08,https://www.lcsc.com/product-detail/C5187096.html
-BT1,"CR2032 battery holder, SMD",LCSC,BS-10-B2AA010,C964798,Extended,1,10,0.4598,4.60,https://www.lcsc.com/product-detail/C964798.html
-"D1, D5, D9, D13, D17","White LED, reverse-mount 1206",LCSC,XL-3216UWC-FB,C3646935,Extended,5,50,0.0165,0.83,https://www.lcsc.com/product-detail/C3646935.html
-"D21, D22, D23, D24, D25","Yellow LED, reverse-mount 1206",LCSC,XL-3216UYC-FB,C3646939,Extended,5,50,0.0159,0.80,https://www.lcsc.com/product-detail/C3646939.html
-"D2, D6, D10, D14, D18","Red LED, reverse-mount 1206",LCSC,XL-3216SURC-FB,C3646938,Extended,5,50,0.0105,0.53,https://www.lcsc.com/product-detail/C3646938.html
-"D3, D7, D11, D15, D19","Green LED, reverse-mount 1206",LCSC,XL-3216UGC-FB,C3646937,Extended,5,50,0.0101,0.51,https://www.lcsc.com/product-detail/C3646937.html
-"D4, D8, D12, D16, D20","Blue LED, reverse-mount 1206",LCSC,XL-3216UBC-FB,C3646941,Extended,5,50,0.0146,0.73,https://www.lcsc.com/product-detail/C3646941.html
-SW2,3-position slide switch (ON / OFF / CLOCK),LCSC,MSK13C02,C2681567,Extended,1,10,0.1169,1.17,https://www.lcsc.com/product-detail/C2681567.html
-SW1,"Tactile button (mode), 3x4 mm",LCSC,HX 3x4x2-2P-1.6N TACTILE SWITCH,C49234124,Extended,1,10,0.0254,0.25,https://www.lcsc.com/product-detail/C49234124.html
-D26,Schottky diode 40 V 1 A (CLOCK position power),LCSC,B5819W SL,C8598,Basic,1,10,0.0262,0.26,https://www.lcsc.com/product-detail/C8598.html
-C1,100 nF 50 V X7R 0603 capacitor,LCSC,CL10B104KB8NNNC,C1591,Extended,1,10,0.0071,0.07,https://www.lcsc.com/product-detail/C1591.html
-"R1, R4",22 Ω 0603 resistor,LCSC,0603WAF220JT5E,C23345,Basic,2,20,0.0017,0.03,https://www.lcsc.com/product-detail/C23345.html
-R3,100 Ω 0603 resistor,LCSC,0603WAF1000T5E,C22775,Basic,1,10,0.0023,0.02,https://www.lcsc.com/product-detail/C22775.html
-"R2, R5",330 Ω 0603 resistor,LCSC,0603WAF3300T5E,C23138,Basic,2,20,0.0020,0.04,https://www.lcsc.com/product-detail/C23138.html
-R6,1 kΩ 0603 resistor,LCSC,0603WAF1001T5E,C21190,Basic,1,10,0.0017,0.02,https://www.lcsc.com/product-detail/C21190.html
--,"LCSC shipping (Global Direct Standard Line, 10-18 days)",LCSC,,,,1,1,,10.97,cost/LCSC_cart.png
--,LCSC handling fee,LCSC,,,,1,1,,3.00,cost/LCSC_cart.png
--,LCSC discount,LCSC,,,,1,1,,-0.41,cost/LCSC_cart.png
--,JLCPCB shipping (estimate for this order alone),JLCPCB,,,,1,1,,14.61,cost/JLCPCB_cart.png
--,AliExpress shipping,AliExpress,,,,1,1,,free,cost/Aliexpress_cart.png
--,AliExpress import duties,AliExpress,,,,1,1,,EUR 5.95,cost/Aliexpress_cart.png
+Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes,References,MPN,LCSC,JLC class,Qty for 10 boards
+"PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order LEDStars_Y20)",PCB,1,1.50,15.00,https://jlcpcb.com/,JLCPCB,Grant,,'-,,,,10
+Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g) bundle,Part,1,11.19,11.19,https://de.aliexpress.com/item/1005009348891918.html,AliExpress,Grant,,'-,,,,1
+"Microcontroller, RISC-V, TSSOP-20",Part,1,0.3085,3.08,https://www.lcsc.com/product-detail/C5187096.html,LCSC,Grant,,U1,CH32V003F4P6,C5187096,Extended,10
+"CR2032 battery holder, SMD",Part,1,0.4598,4.60,https://www.lcsc.com/product-detail/C964798.html,LCSC,Grant,,BT1,BS-10-B2AA010,C964798,Extended,10
+"White LED, reverse-mount 1206",Part,5,0.0165,0.83,https://www.lcsc.com/product-detail/C3646935.html,LCSC,Grant,,"D1, D5, D9, D13, D17",XL-3216UWC-FB,C3646935,Extended,50
+"Yellow LED, reverse-mount 1206",Part,5,0.0159,0.80,https://www.lcsc.com/product-detail/C3646939.html,LCSC,Grant,,"D21, D22, D23, D24, D25",XL-3216UYC-FB,C3646939,Extended,50
+"Red LED, reverse-mount 1206",Part,5,0.0105,0.53,https://www.lcsc.com/product-detail/C3646938.html,LCSC,Grant,,"D2, D6, D10, D14, D18",XL-3216SURC-FB,C3646938,Extended,50
+"Green LED, reverse-mount 1206",Part,5,0.0101,0.51,https://www.lcsc.com/product-detail/C3646937.html,LCSC,Grant,,"D3, D7, D11, D15, D19",XL-3216UGC-FB,C3646937,Extended,50
+"Blue LED, reverse-mount 1206",Part,5,0.0146,0.73,https://www.lcsc.com/product-detail/C3646941.html,LCSC,Grant,,"D4, D8, D12, D16, D20",XL-3216UBC-FB,C3646941,Extended,50
+3-position slide switch (ON / OFF / CLOCK),Part,1,0.1169,1.17,https://www.lcsc.com/product-detail/C2681567.html,LCSC,Grant,,SW2,MSK13C02,C2681567,Extended,10
+"Tactile button (mode), 3x4 mm",Part,1,0.0254,0.25,https://www.lcsc.com/product-detail/C49234124.html,LCSC,Grant,,SW1,HX 3x4x2-2P-1.6N TACTILE SWITCH,C49234124,Extended,10
+Schottky diode 40 V 1 A (CLOCK position power),Part,1,0.0262,0.26,https://www.lcsc.com/product-detail/C8598.html,LCSC,Grant,,D26,B5819W SL,C8598,Basic,10
+100 nF 50 V X7R 0603 capacitor,Part,1,0.0071,0.07,https://www.lcsc.com/product-detail/C1591.html,LCSC,Grant,,C1,CL10B104KB8NNNC,C1591,Extended,10
+22 Ω 0603 resistor,Part,2,0.0017,0.03,https://www.lcsc.com/product-detail/C23345.html,LCSC,Grant,,"R1, R4",0603WAF220JT5E,C23345,Basic,20
+100 Ω 0603 resistor,Part,1,0.0023,0.02,https://www.lcsc.com/product-detail/C22775.html,LCSC,Grant,,R3,0603WAF1000T5E,C22775,Basic,10
+330 Ω 0603 resistor,Part,2,0.002,0.04,https://www.lcsc.com/product-detail/C23138.html,LCSC,Grant,,"R2, R5",0603WAF3300T5E,C23138,Basic,20
+1 kΩ 0603 resistor,Part,1,0.0017,0.02,https://www.lcsc.com/product-detail/C21190.html,LCSC,Grant,,R6,0603WAF1001T5E,C21190,Basic,10
+"LCSC shipping (Global Direct Standard Line, 10-18 days)",Shipping,1,,10.97,,LCSC,Grant,cost/LCSC_cart.png,'-,,,,1
+LCSC handling fee,Tax or fee,1,,3.00,,LCSC,Grant,cost/LCSC_cart.png,'-,,,,1
+LCSC discount,Tax or fee,1,,-0.41,,LCSC,Grant,cost/LCSC_cart.png,'-,,,,1
+JLCPCB shipping (estimate for this order alone),Shipping,1,,14.61,,JLCPCB,Grant,cost/JLCPCB_cart.png,'-,,,,1
+AliExpress shipping,Shipping,1,,0.00,,AliExpress,Grant,cost/Aliexpress_cart.png,'-,,,,1
+AliExpress import duties,Tax or fee,1,,5.95,,AliExpress,Grant,cost/Aliexpress_cart.png,'-,,,,1
+Total,,,,73.25,,,,,,,,,
