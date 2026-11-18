@@ -25,6 +25,12 @@ boards are assembled by hand. The parts list is also available as a spreadsheet:
 | R3 | 100 Ω 0603 resistor | 0603WAF1000T5E | [C22775](https://www.lcsc.com/product-detail/C22775.html) | 1 | 10 | 0.0023 | 0.02 |
 | R2, R5 | 330 Ω 0603 resistor | 0603WAF3300T5E | [C23138](https://www.lcsc.com/product-detail/C23138.html) | 2 | 20 | 0.0020 | 0.04 |
 | R6 | 1 kΩ 0603 resistor | 0603WAF1001T5E | [C21190](https://www.lcsc.com/product-detail/C21190.html) | 1 | 10 | 0.0017 | 0.02 |
+| – | LCSC shipping (Global Direct Standard Line, 10–18 days) | – | – | – | 1 | – | 10.97 |
+| – | LCSC handling fee | – | – | – | 1 | – | 3.00 |
+| – | LCSC discount | – | – | – | 1 | – | −0.41 |
+| – | JLCPCB shipping (estimate for this order alone) | – | – | – | 1 | – | 14.61 |
+| – | AliExpress shipping | – | – | – | 1 | – | free |
+| – | AliExpress import duties | – | – | – | 1 | – | €5.95 |
 
 `J1` (the three SWIO programming pads) is just copper on the board, there is nothing to buy for it.
 

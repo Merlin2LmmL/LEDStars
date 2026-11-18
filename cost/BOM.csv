@@ -17,3 +17,9 @@ R3,100 Ω 0603 resistor,0603WAF1000T5E,C22775,Basic,1,10,0.0023,0.02
 "R2, R5",330 Ω 0603 resistor,0603WAF3300T5E,C23138,Basic,2,20,0.0020,0.04
 R6,1 kΩ 0603 resistor,0603WAF1001T5E,C21190,Basic,1,10,0.0017,0.02
 J1,"SWIO programming pads (no part, just board pads)",,,,1,10,,
+-,"LCSC shipping (Global Direct Standard Line, 10-18 days)",,,,1,1,,10.97
+-,LCSC handling fee,,,,1,1,,3.00
+-,LCSC discount,,,,1,1,,-0.41
+-,JLCPCB shipping (estimate for this order alone),,,,1,1,,14.61
+-,AliExpress shipping,,,,1,1,,free
+-,AliExpress import duties,,,,1,1,,EUR 5.95
