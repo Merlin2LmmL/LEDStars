@@ -1,7 +1,7 @@
 # Bill of materials and cost
 
 Everything needed to build 10 LEDStar boards. The components come from LCSC, the PCBs from JLCPCB and the solder paste
-from AliExpress. JLCPCB's Economic assembly wasn't available for this board (see the [journal](../JOURNAL.md)), so the
+from AliExpress. JLCPCB's Economic assembly wasn't available for this board (see the [journal](JOURNAL.md)), so the
 boards are assembled by hand. The parts list is also available as a spreadsheet: [`BOM.csv`](BOM.csv).
 
 ## Parts (per board and for 10 boards)
@@ -25,12 +25,12 @@ boards are assembled by hand. The parts list is also available as a spreadsheet:
 | R3 | 100 Ω 0603 resistor | LCSC | 0603WAF1000T5E | C22775 | 1 | 10 | 0.0023 | 0.02 | [LCSC](https://www.lcsc.com/product-detail/C22775.html) |
 | R2, R5 | 330 Ω 0603 resistor | LCSC | 0603WAF3300T5E | C23138 | 2 | 20 | 0.0020 | 0.04 | [LCSC](https://www.lcsc.com/product-detail/C23138.html) |
 | R6 | 1 kΩ 0603 resistor | LCSC | 0603WAF1001T5E | C21190 | 1 | 10 | 0.0017 | 0.02 | [LCSC](https://www.lcsc.com/product-detail/C21190.html) |
-| – | LCSC shipping (Global Direct Standard Line, 10–18 days) | LCSC | – | – | – | 1 | – | 10.97 | [cart](LCSC_cart.png) |
-| – | LCSC handling fee | LCSC | – | – | – | 1 | – | 3.00 | [cart](LCSC_cart.png) |
-| – | LCSC discount | LCSC | – | – | – | 1 | – | −0.41 | [cart](LCSC_cart.png) |
-| – | JLCPCB shipping (estimate for this order alone) | JLCPCB | – | – | – | 1 | – | 14.61 | [cart](JLCPCB_cart.png) |
-| – | AliExpress shipping | AliExpress | – | – | – | 1 | – | free | [cart](Aliexpress_cart.png) |
-| – | AliExpress import duties | AliExpress | – | – | – | 1 | – | €5.95 | [cart](Aliexpress_cart.png) |
+| – | LCSC shipping (Global Direct Standard Line, 10–18 days) | LCSC | – | – | – | 1 | – | 10.97 | [cart](cost/LCSC_cart.png) |
+| – | LCSC handling fee | LCSC | – | – | – | 1 | – | 3.00 | [cart](cost/LCSC_cart.png) |
+| – | LCSC discount | LCSC | – | – | – | 1 | – | −0.41 | [cart](cost/LCSC_cart.png) |
+| – | JLCPCB shipping (estimate for this order alone) | JLCPCB | – | – | – | 1 | – | 14.61 | [cart](cost/JLCPCB_cart.png) |
+| – | AliExpress shipping | AliExpress | – | – | – | 1 | – | free | [cart](cost/Aliexpress_cart.png) |
+| – | AliExpress import duties | AliExpress | – | – | – | 1 | – | €5.95 | [cart](cost/Aliexpress_cart.png) |
 
 Unit prices in the table are single-piece catalogue prices and only a rough guide. The carts below have the real prices.
 Adding up the component lines in the ×10 column gives about $12.95.
@@ -41,9 +41,9 @@ The three orders, with screenshots of each cart (the shipping address and accoun
 
 | Order | What | Items | Shipping and fees | Total |
 |---|---|---|---|---|
-| [LCSC](LCSC_cart.png) | all the components | $13.81 (after a $0.41 discount) | $10.97 shipping + $3 handling | **$27.37** |
-| [JLCPCB](JLCPCB_cart.png) | 10 PCBs, white, 1.6 mm, OSP | $15.00 | $14.61 shipping (estimate) | **$29.61** |
-| [AliExpress](Aliexpress_cart.png) | solder paste (Sn99Ag0.3Cu0.7) and flux | €11.19 | free shipping, €5.95 import duties | **€17.14** |
+| [LCSC](cost/LCSC_cart.png) | all the components | $13.81 (after a $0.41 discount) | $10.97 shipping + $3 handling | **$27.37** |
+| [JLCPCB](cost/JLCPCB_cart.png) | 10 PCBs, white, 1.6 mm, OSP | $15.00 | $14.61 shipping (estimate) | **$29.61** |
+| [AliExpress](cost/Aliexpress_cart.png) | solder paste (Sn99Ag0.3Cu0.7) and flux | €11.19 | free shipping, €5.95 import duties | **€17.14** |
 
 The total is **$56.98 + €17.14**, which is about $5.70 + €1.71 per board. At roughly 0.9 € per dollar (the real rate
 will differ) that is about **€68 in total, or €6.80 per board**.

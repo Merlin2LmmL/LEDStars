@@ -16,9 +16,9 @@ C1,100 nF 50 V X7R 0603 capacitor,LCSC,CL10B104KB8NNNC,C1591,Extended,1,10,0.007
 R3,100 Ω 0603 resistor,LCSC,0603WAF1000T5E,C22775,Basic,1,10,0.0023,0.02,https://www.lcsc.com/product-detail/C22775.html
 "R2, R5",330 Ω 0603 resistor,LCSC,0603WAF3300T5E,C23138,Basic,2,20,0.0020,0.04,https://www.lcsc.com/product-detail/C23138.html
 R6,1 kΩ 0603 resistor,LCSC,0603WAF1001T5E,C21190,Basic,1,10,0.0017,0.02,https://www.lcsc.com/product-detail/C21190.html
--,"LCSC shipping (Global Direct Standard Line, 10-18 days)",LCSC,,,,1,1,,10.97,LCSC_cart.png
--,LCSC handling fee,LCSC,,,,1,1,,3.00,LCSC_cart.png
--,LCSC discount,LCSC,,,,1,1,,-0.41,LCSC_cart.png
--,JLCPCB shipping (estimate for this order alone),JLCPCB,,,,1,1,,14.61,JLCPCB_cart.png
--,AliExpress shipping,AliExpress,,,,1,1,,free,Aliexpress_cart.png
--,AliExpress import duties,AliExpress,,,,1,1,,EUR 5.95,Aliexpress_cart.png
+-,"LCSC shipping (Global Direct Standard Line, 10-18 days)",LCSC,,,,1,1,,10.97,cost/LCSC_cart.png
+-,LCSC handling fee,LCSC,,,,1,1,,3.00,cost/LCSC_cart.png
+-,LCSC discount,LCSC,,,,1,1,,-0.41,cost/LCSC_cart.png
+-,JLCPCB shipping (estimate for this order alone),JLCPCB,,,,1,1,,14.61,cost/JLCPCB_cart.png
+-,AliExpress shipping,AliExpress,,,,1,1,,free,cost/Aliexpress_cart.png
+-,AliExpress import duties,AliExpress,,,,1,1,,EUR 5.95,cost/Aliexpress_cart.png
