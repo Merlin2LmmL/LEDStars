@@ -95,6 +95,7 @@ earlier one, the later one is right (I changed the chip, for example).
 | 7 | [November 17, 2026 (entry 7): Reconsidering my life choises ... part 2](JOURNAL.md#november-17-2026-entry-7-reconsidering-my-life-choises--part-2) | Turning the star into a snowflake |
 | 8 | [November 17, 2026 (entry 8): Back silkscreen, the repo and JLCPCB being a pain in the ass](JOURNAL.md#november-17-2026-entry-8-back-silkscreen-the-repo-and-jlcpcb-being-a-pain-in-the-ass) | Back silkscreen, the repo, and JLCPCB's Economic assembly saying no |
 | 9 | [November 17, 2026 (entry 9): Doing some heavy blender rendering](JOURNAL.md#november-17-2026-entry-9-doing-some-heavy-blender-rendering) | The physics-based Blender renders |
+| 10 | [November 18, 2026: Added 3 pos switch and mode switch](JOURNAL.md#november-18-2026-added-3-pos-switch-and-mode-switch) | The mode button and the ON / OFF / CLOCK slide switch I forgot at first |
 
 
 ## What's in the repo
