@@ -8,6 +8,8 @@ boards are assembled by hand. The parts list is also available as a spreadsheet:
 
 | Refs | What | MPN | LCSC | Per board | ×10 | Unit $ | ×10 $ |
 |---|---|---|---|---|---|---|---|
+| – | PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order `LEDStars_Y20`) | – | – | 1 | 10 | 1.50 | 15.00 |
+| – | Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g), AliExpress | – | – | – | 1 set | – | €11.19 + €5.95 duties |
 | U1 | Microcontroller, RISC-V, TSSOP-20 | CH32V003F4P6 | [C5187096](https://www.lcsc.com/product-detail/C5187096.html) | 1 | 10 | 0.3085 | 3.08 |
 | BT1 | CR2032 battery holder, SMD | BS-10-B2AA010 | [C964798](https://www.lcsc.com/product-detail/C964798.html) | 1 | 10 | 0.4598 | 4.60 |
 | D1, D5, D9, D13, D17 | White LED, reverse-mount 1206 | XL-3216UWC-FB | [C3646935](https://www.lcsc.com/product-detail/C3646935.html) | 5 | 50 | 0.0165 | 0.83 |
@@ -27,7 +29,7 @@ boards are assembled by hand. The parts list is also available as a spreadsheet:
 `J1` (the three SWIO programming pads) is just copper on the board, there is nothing to buy for it.
 
 Unit prices in the table are single-piece catalogue prices and only a rough guide. The carts below have the real prices.
-Adding up the ×10 column gives about $12.95.
+Adding up the component lines in the ×10 column gives about $12.95.
 
 ## Total cost
 

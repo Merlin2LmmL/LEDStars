@@ -1,4 +1,6 @@
 References,Description,MPN,LCSC,JLC class,Qty per board,Qty for 10 boards,Unit price USD (est.),Line total USD (est.)
+-,"PCB, white solder mask, 1.6 mm, OSP (JLCPCB, order LEDStars_Y20)",,,,1,10,1.50,15.00
+-,"Solder paste Sn99Ag0.3Cu0.7 (35 g) + flux (10 g), AliExpress",,,,,1 set,,EUR 11.19 + EUR 5.95 duties
 U1,"Microcontroller, RISC-V, TSSOP-20",CH32V003F4P6,C5187096,Extended,1,10,0.3085,3.08
 BT1,"CR2032 battery holder, SMD",BS-10-B2AA010,C964798,Extended,1,10,0.4598,4.60
 "D1, D5, D9, D13, D17","White LED, reverse-mount 1206",XL-3216UWC-FB,C3646935,Extended,5,50,0.0165,0.83
