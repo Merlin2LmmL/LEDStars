@@ -44,7 +44,7 @@
 	(fp_line (start -4.95 -1.10) (end 4.95 -1.10) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.95 -1.10) (end 4.95 1.65) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.95 1.65) (end 1.95 1.65) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/lib/LEDStars.3dshapes/SW-SMD_MSK13C02-SZ.wrl"
+	(model "${KIPRJMOD}/lib/LEDStars.3dshapes/SW-SMD_MSK13C02-SZ.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

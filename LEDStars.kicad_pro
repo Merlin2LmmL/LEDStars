@@ -70,16 +70,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "annular_width|146338503|75671999|d11a6b81-e57a-4e69-bede-12fd11a8338b|00000000-0000-0000-0000-000000000000",
-          "Thats just the footprint. Nothing to do about that"
-        ],
-        [
-          "annular_width|150668630|73171999|c4dfcce5-37c7-4525-81b4-90d4871357ea|00000000-0000-0000-0000-000000000000",
-          "Thats just the footprint. Nothing to do about that"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

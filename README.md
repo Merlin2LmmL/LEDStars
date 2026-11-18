@@ -1,31 +1,32 @@
-# LEDStars – a snowflake PCB Christmas ornament
+# LEDStars
 
-**License:** CERN-OHL-S-2.0 · **Author:** Merlin2LmmL
+A snowflake-shaped Christmas ornament that is its own circuit board. It hangs on a tree branch, has 25 LEDs and runs
+on a coin cell. I'm making about ten of them as Christmas presents for my family.
 
-![LEDStar hanging on a Christmas tree, seen from the back, white and yellow LEDs lit](render/gallery/yw_front.jpg)
+License: CERN-OHL-S-2.0 · Author: Merlin2LmmL
 
-*The ornament hanging from a fir twig by a red string, seen from its back, with the white and yellow LEDs lit. The light shines through the windows in the board. This is a photorealistic Blender render. More colours and camera angles are in the [gallery](#gallery).*
+![The LEDStar hanging on a fir twig, seen from the back with the white and yellow LEDs on](render/gallery/yw_front.jpg)
 
-A battery-powered Christmas-tree ornament that *is* its own circuit board: a 5-armed snowflake with 25 LEDs
-(5 arms × 5 colours: red, yellow, white, blue, green), a tiny RISC-V microcontroller and a CR2032 coin cell.
-Roughly ten of them are meant as gifts, ordered as economic PCBA from JLCPCB.
+*A Blender render of the ornament hanging from a fir twig. You're looking at the back of the board, where the light comes out. More colours and angles are in the [gallery](#gallery).*
 
-## The design in short
+## What it is
 
-- **MCU:** WCH CH32V003F4P6 (TSSOP-20, 48 MHz RISC-V)
-- **LEDs:** 25 × 1206 *reverse-mount* LEDs (XL-3216), sitting on the front and shining **through** the board, so the
-  light comes out of the back as small glowing windows (each LED footprint has a 1.4 mm non-plated window)
-- **Matrix:** 5 arms × 5 colours, multiplexed so the 25 LEDs need far fewer pins than LEDs; per-colour series resistors (22–330 Ω)
-  compensate for the different forward voltages of red/yellow/white/blue/green
-- **Power:** CR2032 in an SMD holder + 100 nF decoupling
-- **Controls:** a mode button and a 3-position slide switch (ON / OFF / CLOCK). In the schematic; the PCB routing is still in progress
-- **Programming:** three bare SWIO pads (`J1`, 3-pad footprint, no header), meant to be programmed with a WCH-LinkE-style SWIO programmer touching the pads, which saves a connector from the BOM
-- **Mechanics:** hang hole at the top arm, outline about 99 × 95 mm (JLCPCB limit: 100 × 100 mm)
-- **Status:** hardware design only. No firmware is in this repo yet and no board has been ordered or tested yet.
+Five arms with five LEDs each (red, yellow, white, blue and green), a CH32V003 microcontroller in the middle and a CR2032
+holder. The LEDs are reverse-mount parts: they sit on the front of the board and shine through a small hole in the PCB,
+so from the back you only see glowing dots. The battery, chip and everything else stay on the side that faces the tree.
+
+- **Microcontroller:** WCH CH32V003F4P6, a tiny 48 MHz RISC-V chip in a TSSOP-20.
+- **LEDs:** 25 XL-3216 reverse-mount LEDs (1206). The chip lights one arm at a time and cycles through them quickly, so 25 LEDs don't need 25 pins. Each colour has its own resistor because the colours need different currents.
+- **Power:** a CR2032 in an SMD holder, with a 100 nF capacitor next to the chip.
+- **Controls:** a button to change the lighting mode and a three-position slide switch for on, off and clock.
+- **Programming:** three bare pads for SWIO (`J1`). There is no header, you just hold jumper wires on the pads while flashing with a WCH-LinkE.
+- **Size:** about 99 × 95 mm, just under JLCPCB's 100 × 100 mm limit, with a hang hole in the top arm.
+
+It's still only a design. No board has been ordered yet and there's no firmware in this repo.
 
 ## Gallery
 
-Pick an LED colour set below, then click a picture for the full 2400 × 1600 image. Each set is shown from three camera angles: **front**, **left** and **right**.
+Open a colour set and click any picture for the full-size image (2400 × 1600). Every set has a front, a left and a right view.
 
 <details open>
 <summary><b>White + yellow</b></summary>
@@ -65,30 +66,23 @@ Pick an LED colour set below, then click a picture for the full 2400 × 1600 ima
 
 ### How the renders are made
 
-- **Board:** the renders use the KiCad board itself, exported with `kicad-cli pcb export glb`.
-- **Tree:** built from the CC0 *Fir Sapling* scans by [Poly Haven](https://polyhaven.com/a/fir_sapling).
-- **Physics:** the ornament is not posed by hand. It is a rigid body with real gravity, hanging from a simulated
-  string that runs through the hang hole and over a real twig of the tree.
-- **Rendering:** Blender 4.5 Cycles at 512 samples with OpenImageDenoise, about 3 minutes per image on an AMD RX 9070 XT.
+The board comes straight from the KiCad file (`kicad-cli pcb export glb`). The tree is built from the CC0 *Fir Sapling*
+scans by [Poly Haven](https://polyhaven.com/a/fir_sapling). The ornament isn't posed by hand: it's a rigid body with
+gravity, hanging on a simulated string that runs through the hang hole and over a real twig. Each image is rendered in
+Blender 4.5 (Cycles, 512 samples, OpenImageDenoise) and takes about three minutes on my RX 9070 XT.
 
 | File | What |
 |---|---|
-| [`render/gallery/`](render/gallery/) | all 9 final images, 2400 × 1600 |
-| [`LEDStar_hanging_physics.blend`](https://github.com/Merlin2LmmL/LEDStars/releases/latest/download/LEDStar_hanging_physics.blend) | Blender 4.5+ scene (textures packed, 82 MB, download from the [Releases](https://github.com/Merlin2LmmL/LEDStars/releases) page). Press **Play** to watch the ornament drop onto the twig and settle |
+| [`render/gallery/`](render/gallery/) | the 9 final images |
+| [`LEDStar_hanging_physics.blend`](https://github.com/Merlin2LmmL/LEDStars/releases/latest/download/LEDStar_hanging_physics.blend) | the Blender scene (82 MB, on the [Releases](https://github.com/Merlin2LmmL/LEDStars/releases) page). Open it in Blender 4.5 or newer and press Play to watch the ornament drop and settle |
 | [`render/scene.py`](render/scene.py) | builds the whole scene from the board export |
-| [`render/README.md`](render/README.md) | rebuild instructions, options and credits |
+| [`render/README.md`](render/README.md) | how to rebuild it, plus credits |
 
-## Build journal: how to follow the project
+## Build journal
 
-The story of how this board came to be (the ideas, the parts I picked, the things I threw away) is written down as
-journal entries in [`JOURNAL.md`](JOURNAL.md).
-
-**How to read it**
-- Read it from top to bottom. Entries are in the order I wrote them, so the oldest is first.
-- Each entry has a date, a title, a picture and the time I spent on it. The total is in the header at the top of the file.
-- A newer entry can overrule an older one, for example when I change a part. Later entries are the current truth.
-
-**Entries so far**
+I wrote down how the project went in [`JOURNAL.md`](JOURNAL.md): what I tried, what I changed my mind about and why.
+It reads best from the top, since the entries are in the order things happened. If a later entry contradicts an
+earlier one, the later one is right (I changed the chip, for example).
 
 | # | Entry | What it covers |
 |---|---|---|
@@ -102,27 +96,24 @@ journal entries in [`JOURNAL.md`](JOURNAL.md).
 | 8 | [November 17, 2026 (entry 8): Back silkscreen, the repo and JLCPCB being a pain in the ass](JOURNAL.md#november-17-2026-entry-8-back-silkscreen-the-repo-and-jlcpcb-being-a-pain-in-the-ass) | Back silkscreen, the repo, and JLCPCB's Economic assembly saying no |
 | 9 | [November 17, 2026 (entry 9): Doing some heavy blender rendering](JOURNAL.md#november-17-2026-entry-9-doing-some-heavy-blender-rendering) | The physics-based Blender renders |
 
-New entries are added to the bottom of `JOURNAL.md` as the project goes on.
 
-## Repository layout
+## What's in the repo
 
 | Path | What |
 |---|---|
-| `LEDStars.kicad_pro/.kicad_sch/.kicad_pcb` | current KiCad 10 project |
-| `LEDStars.kicad_pcb` | the final snowflake board |
-| `LEDStars_frontlit_0805.kicad_pcb`, `LEDStars_backlit_1206.kicad_pcb` | earlier board states (see iterations) |
-| `lib/` | project symbol, footprint and 3D-model libraries |
-| `LEDStar.step` | exported 3D model of the board |
-| `docs/` | PDF exports and previews of earlier design states |
-| `render/` | photorealistic renders: gallery images, Blender scene and the script that generates it |
+| `LEDStars.kicad_pro`, `.kicad_sch`, `.kicad_pcb` | the KiCad 10 project |
+| `LEDStars_frontlit_0805.kicad_pcb`, `LEDStars_backlit_1206.kicad_pcb` | older versions of the board, kept for reference |
+| `lib/` | my symbol, footprint and 3D-model libraries |
+| `LEDStar.step` | 3D export of the board |
+| `docs/` | PDFs and previews of earlier versions |
+| `render/` | the gallery images and the script that builds the Blender scene |
+| `JOURNAL.md` | the build journal |
 
 ## Building it
 
 1. Open `LEDStars.kicad_pro` in KiCad 10.
-2. Generate the JLCPCB files (gerbers, BOM, positions) with the *Fabrication Toolkit* plugin. It writes `production/`,
-   which is not tracked in git. The LCSC part numbers are stored in the schematic fields.
-3. Check the LED rotation in the JLCPCB 3D/placement preview. Reverse-mount parts are the usual source of
-   rotation surprises.
+2. Make the JLCPCB files (gerbers, BOM, positions) with the Fabrication Toolkit plugin. It writes them to `production/`, which isn't in git. The LCSC part numbers are stored in the schematic fields.
+3. Check the LED rotation in JLCPCB's preview. Reverse-mount parts are easy to get wrong.
 
 ## License
 
