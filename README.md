@@ -97,6 +97,29 @@ earlier one, the later one is right (I changed the chip, for example).
 | 9 | [November 17, 2026 (entry 9): Doing some heavy blender rendering](JOURNAL.md#november-17-2026-entry-9-doing-some-heavy-blender-rendering) | The physics-based Blender renders |
 | 10 | [November 18, 2026: Added 3 pos switch and mode switch](JOURNAL.md#november-18-2026-added-3-pos-switch-and-mode-switch) | The mode button and the ON / OFF / CLOCK slide switch I forgot at first |
 
+<<<<<<< Updated upstream
+=======
+
+## What's in the repo
+
+| Path | What |
+|---|---|
+| `LEDStars.kicad_pro`, `.kicad_sch`, `.kicad_pcb` | the KiCad 10 project |
+| `LEDStars_frontlit_0805.kicad_pcb`, `LEDStars_backlit_1206.kicad_pcb` | older versions of the board, kept for reference |
+| `lib/` | my symbol, footprint and 3D-model libraries |
+| `LEDStar.step` | 3D export of the board |
+| `docs/` | PDFs and previews of earlier versions |
+| `render/` | the gallery images and the script that builds the Blender scene |
+| `cost/` | parts list (`BOM.md`, `BOM.csv`), cart screenshots and the total cost for 10 boards |
+| `JOURNAL.md` | the build journal |
+
+## Building it
+
+1. Open `LEDStars.kicad_pro` in KiCad 10.
+2. Make the JLCPCB files (gerbers, BOM, positions) with the Fabrication Toolkit plugin. It writes them to `production/`, which isn't in git. The LCSC part numbers are stored in the schematic fields.
+3. Check the LED rotation in JLCPCB's preview. Reverse-mount parts are easy to get wrong.
+
+>>>>>>> Stashed changes
 ## License
 
 [CERN-OHL-S-2.0](LICENSE). If you build on this design, share your changes under the same license.
