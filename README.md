@@ -21,6 +21,7 @@ so from the back you only see glowing dots. The battery, chip and everything els
 - **Controls:** a button to change the lighting mode and a three-position slide switch for on, off and clock.
 - **Programming:** three bare pads for SWIO (`J1`). There is no header, you just hold jumper wires on the pads while flashing with a WCH-LinkE.
 - **Size:** about 99 × 95 mm, just under JLCPCB's 100 × 100 mm limit, with a hang hole in the top arm.
+- **3D model:** [`hardware/LEDStar.step`](hardware/LEDStar.step), the full board with all components as a STEP file.
 
 It's still only a design. No board has been ordered yet and there's no firmware in this repo.
 
