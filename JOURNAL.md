@@ -3,7 +3,7 @@ title: "LEDStar"
 github: "https://github.com/Merlin2LmmL/LEDStars"
 description: "A Snowflake shaped Board with 5 arms and one set of red, yellow, white, blue and green LEDs per arm to hang on your Christmas tree!"
 created_at: "2026-11-17"
-total_time: "18h 30m"
+total_time: "20h"
 ---
 
 # November 17, 2026: Getting the Idea
@@ -150,9 +150,19 @@ Since the LEDs shine through the board, I wanted to see how the ornament would l
 
 It took many tries before it looked right. The string end stuck out into the air and for a while the camera showed the front of the board instead of the back. In the end I found a spot between the branches with a bit of background and some baubles. I also gave the board a glossy white solder mask, like the ones I will order, and made the silkscreen matte black.
 
-For the README gallery I render three LED colour sets (white + yellow, white + blue, red + green) from three camera angles each. Every image is 2400 × 1600 pixels at 512 samples and takes about 3 minutes. I even found a bauble that was clipping into the tree and fixed the placement script before the final batch.
+For the README gallery I render three LED colour sets (white + yellow, white + blue, red + green) from three camera angles each. Every image is 2400 × 1600 pixels at 512 samples and takes about 3 minutes. It took some time to get it right and i had to fix a lot of stuff like a clipped bauble inside the tree.
 
-![](https://fabricate.hackclub-assets.com/7f20acae314c9249a36466117c58281e70dc222c22796e91e0213fec73bf882e/image-jpeg/08_render.jpg)
+Here is proof that i did it in reder:
+![](https://fabricate.hackclub-assets.com/e8b409ebce30f6992b50f51ae1ddb7c500a9708e3855884e388e3c6fa0a931da/image-png/image.png)
+
+![](https://fabricate.hackclub-assets.com/563f63219a2de370a5610fbc0201dec3fce47ca4e89f45235cf4b194f5844f37/image-jpeg/yw_right.jpg)
+![](https://fabricate.hackclub-assets.com/edf4e86626dad60b2eee84c863232136846c93abddeb9575d3e8e1312a54648b/image-jpeg/yw_left.jpg)
+![](https://fabricate.hackclub-assets.com/bb0ab2556c6700ea5c315a0274ef97a3d9555f9a7e78f4bf4d95d3a26261e5bc/image-jpeg/rg_right.jpg)
+![](https://fabricate.hackclub-assets.com/b12faf5b39870b47075ed710b94a91e19ebfbb1098ac344991b2c2c9c654e465/image-jpeg/rg_left.jpg)
+![](https://fabricate.hackclub-assets.com/7fa1dbd5338a92a85cdbfdfecec1093354611e3eeb559272d0dd5e5ce2a01a14/image-jpeg/rg_front.jpg)
+![](https://fabricate.hackclub-assets.com/07d7b49d9fae0c0094f8b6b634bcb96e9b615c5fae4ec90244f8936fcb9ae866/image-jpeg/bw_right.jpg)
+![](https://fabricate.hackclub-assets.com/5dead1c4fc950025bae113fa15e66454845f47b5cc24486a5ddd811d89966843/image-jpeg/bw_left.jpg)
+![](https://fabricate.hackclub-assets.com/175bf051600f2621d7a0833de8ff42f80636ec7b150721bf7ac325b11d05ae6f/image-jpeg/bw_front.jpg)
 
 **Total time spent: 3h 30m**
 
@@ -165,3 +175,21 @@ I am so dumb lol. How did i forget to add buttons for changing modes lol. I lite
 ![](https://fabricate.hackclub-assets.com/eb54e2659c60139ac29d08b9389d324eef50ef89d129cf53d7d9ee5356be659f/image-png/image.png)
 
 **Total time spent: 1h**
+
+# November 19, 2026: Paperwork and reconsidering my life choises part 3
+<!-- fabricate:entry 3488 -->
+
+Today was a lot of paperwork, but it ended with a real design change. First I made carts at LCSC, JLCPCB and AliExpress (for the solder paste and flux) and added everything up. For 10 boards it comes to about **$57 + €17**, so roughly €68 or **€6.80 per board**. The surprise: shipping is a huge part of that, about $25 of the $57. The parts themselves are cheap, the 50 LEDs and the PCBs are the rest. I put everything into a `BOM.md` and a `BOM.csv` with a vendor, a link, the quantity and the price in every row, and shipping, handling, the discount and the import duties are separate rows so nothing is hidden. I also blacked out my address and name on the cart screenshots before committing them.
+
+Then I cleaned up the repo for the Fabricate checks: all PCB files are now in a `hardware/` folder, the Gerber zip is called `gerbers.zip`, the production files are no longer ignored by git, and the README explains the STEP file and where the CAD source is (it is just the KiCad project, there is no case). It turns out the only check that really fails is the BOM, because it has to match the BOM that Fabricate generates itself.
+
+While looking at the costs I asked myself if the CH32V003 is really the best choice, since I need an expensive-ish programmer for it. It has no UART bootloader in ROM, so for the first flash I would need a WCH-LinkE (the cheap USB-UART trick only works after a bootloader is on the chip). I checked LCSC's live prices and found the **PY32F002A** (Puya, Cortex-M0+): same TSSOP-20 package, also 18 GPIOs, **$0.215 instead of $0.308** and over 47 000 in stock. It has a ROM UART bootloader that you start by pulling BOOT0 high. I already have an ESP32 devboard, and its USB-UART chip can act as the adapter, so I could program the board with jumper wires and don't need to buy anything extra. The savings on the chip alone are only about $1 for 10 boards, but not needing a WCH-LinkE is the real win. (The PY32F002**B** is even cheaper but has no usable BOOT0 pin, so no.)
+
+I did not want to wait for another part, and the LCSC cart can be changed with one click, so I swapped it. The pinout is not the same though: the PY32 has GND on pin 1 and 3V3 on pin 20. I changed the schematic so that the LED pins stay in the same order along the package (the five ARM lines are still on pins 13-17 and the five DRV lines only moved by one pin), which should keep the rerouting small. The programming pads (J1) are now 3V3, TX, RX, BOOT0 and GND, and TX/RX share the pins of two of the LED arms. The downside: two LED lines now sit on the SWD pins, so there is no debugger any more, only UART.
+
+After that i did the rerouting. Relatively small work. I had to redo mostly only the Power pins and the Boot pin. And i had to squeeze in the new 5p programming header, But in the end it all fits on this 2 layer board... The back isnt as clean as before tho but thats not a dealbreaker.
+
+![](https://fabricate.hackclub-assets.com/ddc0f9a96ce1facbcfab3694dc8232b022edb4b72020a85a377d5d39f47c25ae/image-png/journal_schematic.png)
+![](https://fabricate.hackclub-assets.com/9244b814be47e6cbeccc094ead1a051ec038f52122a74ed0d3f79084ac1b2f1a/image-png/journal_pcb.png)
+
+**Total time spent: 1h 30m**
